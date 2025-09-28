@@ -6,7 +6,7 @@ var maxFreqSum = function(s) {
     let maxVowelFreq = 0;
     let maxConsonantFreq = 0;
 
-    // المرور على السلسلة مرة واحدة فقط
+    // المرور على السلسلة مرة واحدة فبيقط
     for (let i = 0; i < s.length; i++) {
         const charCode = s.charCodeAt(i);
         const charIndex = charCode - a_charCode;
